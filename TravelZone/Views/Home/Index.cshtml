@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .card {
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+
+        <!-- Welcome Display: TravelZone -->
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to TravelZone</h1>
+            <p class="lead">Explore the world with TravelZone - your ultimate destination for discovering the best travel destinations, attractions, and experiences.</p>
+            <hr class="my-4">
+            <p>Whether you're seeking adventure, relaxation, or cultural immersion, TravelZone has you covered. Start planning your next unforgettable journey today!</p>
+        </div>
+
+        <!-- Card 1: Bali, Indonesia -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+                <img src="~/Images/Bali.jpg" class="card-img-top" alt="bali">
+                <div class="card-body">
+                    <h5 class="card-title">Bali, Indonesia</h5>
+                    <p class="card-text">There is no other place like Bali. A magical blend of a colourful culture, friendly people, stunning nature, countless activities, tropical weather, culinary delights, vibrant nightlife, and beautiful accommodation. Bali is rated regularly as one of the best travel destinations in the world – for very good reasons. There is something great for everyone to explore and discover.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2: Paris, France -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+                <img src="~/Images/Paris.jpg" class="card-img-top" alt="Paris">
+                <div class="card-body">
+                    <h5 class="card-title">Paris, France</h5>
+                    <p class="card-text">Paris, the City of Light, is one of the most romantic destinations in the world. With its iconic landmarks such as the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral, along with its charming streets, bistros, and cafes, Paris offers a unique blend of culture, history, and elegance.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: Tokyo, Japan -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+                <img src="~/Images/Japan.jpg" class="card-img-top" alt="Tokyo">
+                <div class="card-body">
+                    <h5 class="card-title">Tokyo, Japan</h5>
+                    <p class="card-text">Tokyo, the bustling capital of Japan, is a modern metropolis with a rich cultural heritage. From traditional temples and shrines to futuristic skyscrapers and neon-lit streets, Tokyo offers a fascinating mix of old and new. Explore its vibrant neighborhoods, indulge in delicious cuisine, and experience the unique blend of tradition and innovation.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
